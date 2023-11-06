@@ -13,7 +13,7 @@ PigLatin is a high-level data flow scripting language designed for processing an
 
 - **STORE**: Save the contents of a Pig relation into a specified location.
   - Example:
-    ```sql
+    ```pig
     STORE data INTO 'output' USING PigStorage(':');
     ```
 
